@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: hospital
+    database: learn
+    schema: SOURCE
+    tables: 
+      - name: patients
+      - name: doctors
+      - name: appointments
+      - name: billing   
+      - name: treatments
